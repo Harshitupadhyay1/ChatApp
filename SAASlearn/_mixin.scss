@@ -1,0 +1,13 @@
+@import "var";
+@mixin flexpro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+@mixin commoncode($part1,$part2){
+    color:$text-color;
+    font-size: 5rem + 5rem;
+    letter-spacing: $part1;
+    text-transform: $part2;
+}
